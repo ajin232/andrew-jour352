@@ -1,0 +1,122 @@
+    body{
+        font-family: Georgia, serif;
+        background-color: #f2f5f6;
+        margin-top: 0px; 
+        margin-left: 0px; 
+        overflow-x: hidden !important;
+    }    
+
+    p {
+        font-size: 13pt;
+        line-height: 135%;
+        color: #444444;
+    }
+
+    h1 {
+        font-size: calc(1.5vw + 17pt) !important; 
+        font-family: Helvetica, Arial, sans-serif;
+        color: #ffffff;       
+    }
+
+    h2 {
+        font-size: 18pt;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: 500;
+        color: #444444;
+    }
+
+    a{
+        font-family: Helvetica, Arial, sans-serif !important;
+        text-decoration: none !important;
+        color: #2980b9;
+        transition: all 0.3s ease;
+    }
+
+    a:hover{
+        color: #3498db;
+        transition: all 0.3s ease;
+    }
+
+    a:visited{
+        color: #8e44ad;
+        transition: all 0.3s ease;
+    }
+
+    a:visited:hover{
+        color: #3498db;
+        transition: all 0.3s ease;
+    }
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    blockquote{
+        font-size: 18pt;
+        font-weight: bolder;
+        font-style: italic;
+        color: #444444;
+        line-height: 135%;
+        cursor: default;
+    }
+
+    .wrapper{
+        height: 40vh; 
+        min-height: 400px; 
+        width: 100vw; 
+        box-shadow: 0px 2px 11px 3px rgba(38,50,56, 0.5);
+    }
+
+    .navbar{
+        height: 8vh; 
+        min-height: 40px; 
+        width: 100vw; 
+        background: rgba(255,255,255,0.875); 
+        box-shadow: 0px 2px 8px 3px rgba(24,24,24 ,0.5);
+        position: fixed; 
+        transition: background 0.25s ease;
+        cursor: default !important;
+        z-index: 9001; 
+    }
+
+    .navbar:hover{
+        background: rgba(255,255,255,1); 
+        transition: background 0.25s ease;
+    }
+
+    .logo{
+        color: #33485e;
+        text-align: center;
+        font-size: calc(14pt + 1.4vw); 
+        vertical-align: middle;
+        transition: all 0.25s ease;
+    }
+
+    .logo:hover{
+        color: #3498db;
+        transition: all 0.25s ease;
+    }
+
+    .masthead{
+        height: 20%; 
+        vertical-align: middle;
+        cursor:default;
+        text-shadow: 2px 2px 6px #000000;
+        line-height: normal; 
+    }
+
+    .citation{
+        font-family: Helvetica, sans-serif;
+        font-size: 11pt;
+        font-style: italic;
+        text-align: center;
+    }
+
+    #byline {
+        font-family: Helvetica, sans-serif;
+        font-size: 14px !important;
+        font-style: italic;
+    }
