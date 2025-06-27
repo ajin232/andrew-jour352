@@ -24,7 +24,14 @@ h2 {
     font-size: 1.5rem !important;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 500;
-    color: #3498DB;
+    color: #2980B9;
+}
+
+.dark h2 {
+    font-size: 1.5rem !important;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #37a0e5;
 }
 
 h3 {
@@ -123,7 +130,7 @@ img{
 }
 
 .dark{
-    background-color: rgba(38, 50, 56, 0.85);
+    background-color: rgba(19, 25, 28, 0.85);
     color: #fafbfc;
 }
 
@@ -153,7 +160,7 @@ img{
 .footer{
     width: 100%;
     text-align: center;
-    background: #263238;
+    background: #13191c;
     height: 75px;
     cursor: default;
 }
