@@ -80,6 +80,14 @@ img{
     padding: 0.5rem min(15%, calc((100% - 350px) / 2)) !important;
 }
 
+.nav-link{
+    color: rgba(0,0,0, .75);
+}
+
+.nav-link:hover, .nav-link:active, .nav-link: focus{
+    color: rgba(0,0,0, .95);
+}
+
 .logo{
     text-align: center;
     font-family: Helvetica, Arial, sans-serif;
