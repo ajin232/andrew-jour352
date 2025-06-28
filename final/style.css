@@ -81,11 +81,11 @@ img{
 }
 
 .nav-link{
-    color: rgba(0,0,0, .7);
+    color: rgba(0,0,0, .625) !important;
 }
 
-.nav-link:hover, .nav-link:active, .nav-link: focus{
-    color: rgba(0,0,0, .9);
+.nav-link:hover, .nav-link:active{
+    color: rgba(0,0,0, .9) !important;
 }
 
 .logo{
